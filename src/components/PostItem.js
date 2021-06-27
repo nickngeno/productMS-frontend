@@ -1,8 +1,9 @@
 import React from "react";
-import { Card, Image, Row } from "react-bootstrap";
+import { Card, Image } from "react-bootstrap";
 import "./PostItem.css";
 import man from "../Images/man.png";
 import { Link } from "react-router-dom";
+import { FiEdit } from "react-icons/fi";
 
 const PostItem = () => {
   return (
@@ -15,8 +16,8 @@ const PostItem = () => {
             Some quick example text to build on the card title and make up the
             bulk of the card's content.
           </Card.Text>
-          <Link to="/productDetails" className="btn btn-secondary btn-block">
-            Update Item
+          <Link to="/productDetails"  className="btn btn-outline-warning">
+          <FiEdit /> Edit
           </Link>
         </Card.Body>
       </Card>
@@ -28,8 +29,8 @@ const PostItem = () => {
             Some quick example text to build on the card title and make up the
             bulk of the card's content.
           </Card.Text>
-          <Link to="/productDetails" className="btn btn-secondary btn-block">
-            Update Item
+          <Link to="/productDetails"  className="btn btn-outline-warning">
+          <FiEdit /> Edit
           </Link>
         </Card.Body>
       </Card>
@@ -41,8 +42,8 @@ const PostItem = () => {
             Some quick example text to build on the card title and make up the
             bulk of the card's content.
           </Card.Text>
-          <Link to="/productDetails" className="btn btn-secondary btn-block">
-            Update Item
+          <Link to="/productDetails"  className="btn btn-outline-warning">
+          <FiEdit /> Edit
           </Link>
         </Card.Body>
       </Card>
@@ -54,8 +55,8 @@ const PostItem = () => {
             Some quick example text to build on the card title and make up the
             bulk of the card's content.
           </Card.Text>
-          <Link to="/productDetails" className="btn btn-secondary btn-block">
-            Update Item
+          <Link to="/productDetails"  className="btn btn-outline-warning">
+          <FiEdit /> Edit
           </Link>
         </Card.Body>
       </Card>
